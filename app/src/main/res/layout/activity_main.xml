@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context="com.xxx.mxh.emulatordemo.MainActivity">
+
+	<Button
+			android:text="点击测试"
+			android:layout_width="210dp"
+			android:layout_height="157dp"
+			android:id="@+id/main_button_check"
+			android:singleLine="false"
+			android:scrollbars="vertical"
+			android:textAllCaps="false" app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="20dp"
+			android:layout_marginTop="20dp"/>
+	<TextView
+			android:text="TextView"
+			android:layout_height="0dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			android:id="@+id/main_text_view1" android:layout_marginTop="20dp"
+			app:layout_constraintTop_toBottomOf="@+id/main_button_check" app:layout_constraintEnd_toEndOf="parent"
+			android:layout_marginEnd="30dp" app:layout_constraintStart_toStartOf="parent"
+			android:layout_marginStart="30dp" android:layout_width="0dp" android:textAlignment="viewStart"
+			android:textAllCaps="false" android:layout_marginBottom="10dp"/>
+
+</android.support.constraint.ConstraintLayout>
