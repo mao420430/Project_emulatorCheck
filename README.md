@@ -1,3 +1,3 @@
 # Project_emulatorCheck
 
-判断时候是模拟器
+判断是否是模拟器
